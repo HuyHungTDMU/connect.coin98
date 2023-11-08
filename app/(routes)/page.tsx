@@ -72,7 +72,7 @@ const HomePage = () => {
       />
 
       <div className="mx-auto max-w-7xl px-8 py-10 h-[300px] sm:h-[400px] xl:h-[446px] justify-center flex flex-col">
-        <div className="text-textPrimary z-10 flex-col flex justify-center text-[#ffffff]">
+        <div className="z-10 flex-col flex justify-center text-[#ffffff]">
           <img src="https://connect.coin98.com/assets/images/logos/Coin98TextLogo.svg" className="w-36" alt="" />
 
           <div className="text-[2.8rem]">
@@ -105,7 +105,7 @@ const HomePage = () => {
         {connected && (
           <div>
             <div className="mt-10 text-[20px]">
-              <h4 className="text-3xl  text-[#ffffff] uppercase">{selectedBlockChain}</h4>
+              <h4 className="text-3xl text-[#ffffff] uppercase">{selectedBlockChain}</h4>
               <div className="mt-4 flex flex-col lg:flex-row gap-3 text-xs font-normal">
                 <div className="border border-[#FDD05A] text-[#FDD05A] px-3 py-2 rounded-full">
                   Wallet Name: <span className="text-[#fff] pl-2">{wallet?.adapter.name}</span>
